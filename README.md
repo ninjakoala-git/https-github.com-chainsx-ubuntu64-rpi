@@ -1,7 +1,7 @@
 # rpi3-ubuntu-aarch64
 A project of ubuntu aarch64 for Raspberrypi3
 
-前言：
+## 前言：##
 
 ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的。。。。），太不厚道了。（但据说是因为16.04何rpi3发布时间隔的太近了）
 
@@ -13,7 +13,7 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 我以前就是搞Android Recovery移植的，后来搞坏了。。。。。没得搞的了，就玩树莓派了。。。。。。。
 
-关于
+## 关于:##
 
 1，本系统三个部分由以下组成
 
@@ -29,7 +29,7 @@ rootfs：ubuntu 15.10 arm64 for powerpc
 
 4，apt的源默认为cn.ports.ubuntu.com（科大源太坑了）
 
-5，默认用户：ubuntu      密码：ubuntu       root用户密码：root      (这里不得不多说两句，我大多数时间都卡在这里，下载的rootfs镜像又不告诉我默认用户名密码。。。。cat /etc/shadow 后知道默认用户为ubuntu,按照官方的说法ubuntu的默认密码要么为空，要么为ubuntu，但两者都不对，哼哼，华军你改过的吧。。幸好有chroot这么个命令，我用raspbian执行chroot之后才把密码改了，才登陆了上去)
+5，默认用户：ubuntu      密码：ubuntu       root用户密码：root      (这里不得不多说两句，我大多数时间都卡在这里，下载的rootfs镜像又不告诉我默认用户名密码。。。。`cat /etc/shadow` 后知道默认用户为ubuntu,按照官方的说法ubuntu的默认密码要么为空，要么为ubuntu，但两者都不对，哼哼，华军你改过的吧。。幸好有`chroot`这么个命令，我用raspbian执行chroot之后才把密码改了，才登陆了上去)
 
 6，默认开启ssh，不想要的自己去关
 
@@ -47,10 +47,12 @@ QQ:1396219808(CX_rootfs)
 
 E-mail:chainsx@outlook.com(不常用)    1396219808@qq.com(我登qq时就会接受电子信件了)
 
-声明：
+## 声明：##
 
 这里只提供学术交流，所以，转载请注明。。。。。。。。。。。。。
 
 不得用于商业用途（我都不知道可以怎么作为商业用途。。。。。。。）
+
+## 链接：##
 
 啰嗦了一大堆，最后，附上百度云链接http://pan.baidu.com/s/1bp8NnvL
