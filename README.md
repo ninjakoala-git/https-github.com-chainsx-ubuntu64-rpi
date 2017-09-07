@@ -5,7 +5,7 @@ A project of ubuntu aarch64 for Raspberrypi3
 
 ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的。。。。），太不厚道了。（但据说是因为16.04何rpi3发布时间隔的太近了）
 
-那现在17.04都出来了你还有什么理由解释呢(17.04优先适配pi2，pi3现在还没消息。。你可以在这里找到对于pi3的17.04的版本https://github.com/chainsx/ubuntu-17.04-for-RaspberryPi3)。。。。。。。。。
+那现在17.04都出来了你还有什么理由解释呢(17.04优先适配pi2，pi3现在还没消息。。你可以在这里找到对于pi3的17.04的版本https://github.com/chainsx/ubuntu-17.04-for-RaspberryPi3
 
 基于一篇贴子的开导，，，，我成功的移植了ubuntu 15.10 aarch64到rpi3上（虽然不是长期支持版，而且现在已经停止支持了，Debian有一个健壮的arm64移植版，但ubuntu不一样，所以我找了很久,现在考虑交叉升级到17.04）
 
