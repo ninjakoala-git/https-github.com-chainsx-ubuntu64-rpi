@@ -58,3 +58,7 @@ E-mail:chainsx@outlook.com(不常用)    1396219808@qq.com(我登qq时就会�
 啰嗦了一大堆，最后，附上百度云链接http://pan.baidu.com/s/1bp8NnvL(没打包的)
 
 打包了的:https://pan.baidu.com/s/1mi7PE1E
+
+### 重要 重要 重要
+请自行将源换成mirrors.opencas.org
+不然apt无法使用
