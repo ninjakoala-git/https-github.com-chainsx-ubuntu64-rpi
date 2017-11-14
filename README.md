@@ -1,4 +1,7 @@
 # rpi3-ubuntu-aarch64
+
+## 为了不辜负大家的star，我将尽快补充内容
+
 A project of ubuntu aarch64 for Raspberrypi3
 
 ## 前言：
