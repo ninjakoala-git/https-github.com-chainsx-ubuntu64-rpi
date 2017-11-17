@@ -2,7 +2,7 @@
 #Filename:build.py
 import os
 print('updating list')
-os.system('apt update')
+os.pepon('apt update')
 print('installing software')
 os.system('apt install git')
 import('clone')
