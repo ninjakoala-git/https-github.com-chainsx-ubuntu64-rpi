@@ -8,7 +8,7 @@ A project of ubuntu aarch64 for Raspberrypi3
 
 ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的。。。。），太不厚道了。（但据说是因为16.04何rpi3发布时间隔的太近了）
 
-那现在17.04都出来了你还有什么理由解释呢(17.04优先适配pi2，pi3现在还没消息。。你可以在这里找到对于pi3的17.04的版本https://github.com/chainsx/ubuntu-17.04-for-RaspberryPi3
+那现在17.04都出来了你还有什么理由解释呢(17.04优先适配pi2，pi3现在还没消息。。你可以出门左转找到对于pi3的17.04的版本https://github.com/chainsx/ubuntu-17.04-for-RaspberryPi3
 
 基于一篇贴子的开导，，，，我成功的移植了ubuntu 15.10 aarch64到rpi3上（虽然不是长期支持版，而且现在已经停止支持了，Debian有一个健壮的arm64移植版，但ubuntu不一样，所以我找了很久,现在考虑交叉升级到17.04）
 
@@ -18,13 +18,13 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 * 本系统三个部分由以下组成
 
-boot:由ubuntu 16.04 armhf for rpi2（官方镜像）移植
+boot:由ubuntu 16.04 armhf for rpi2（官方镜像）提取
 
 firmware：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
 
 rootfs：ubuntu 15.10 arm64
 
-* 当然了，这个系统肯定不稳定（废话，当然知道），如开机时会连接某个被墙的服务器，会等很久，目前还未解决。
+* 当然了，这个系统肯定不稳定（废话，当然知道），如开机时会连接某个地址，会等很久，目前还未解决。
 
 * 前面想移植centos arm64 的，但是始终没解决EFI分区挂载不了和rootfs分区readonly的问题，但目前此系统基本上没什么太大的问题。
 
