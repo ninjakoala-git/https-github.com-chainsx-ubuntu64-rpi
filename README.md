@@ -10,7 +10,7 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 那现在17.04都出来了你还有什么理由解释呢(17.04优先适配pi2，pi3现在还没消息。。你可以出门左转找到对于pi3的17.04的版本https://github.com/chainsx/ubuntu-17.04-for-RaspberryPi3
 
-基于一篇贴子的开导，，，，我成功的移植了ubuntu 15.10 aarch64到rpi3上（虽然不是长期支持版，而且现在已经停止支持了，Debian有一个健壮的arm64移植版，但ubuntu不一样，所以我找了很久,现在考虑交叉升级到17.04）
+基于一篇贴子的开导，，，，我成功的移植了ubuntu 15.10 aarch64到rpi3上（虽然不是长期支持版，而且现在已经停止支持了，Debian有一个健壮的arm64移植版，但ubuntu不一样）
 
 在此呢，感谢bamarni提供的思路，他本人也有一个64位树莓派系统的项目debian arm64，项目地址https://github.com/bamarni/pi64
 
@@ -22,11 +22,9 @@ boot:由ubuntu 16.04 armhf for rpi2（官方镜像）提取
 
 firmware：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
 
-rootfs：ubuntu 15.10 arm64
+rootfs：ubuntu 15.10 arm64（你可以交叉升级到16.04，因为有人问什么是交叉升级，[点击这里](https://github.com/chainsx/ubuntu64-rpi/edit/master/cross-upgrade.md)）
 
 * 当然了，这个系统肯定不稳定（废话，当然知道），如开机时会连接某个地址，会等很久，目前还未解决。
-
-* 前面想移植centos arm64 的，但是始终没解决EFI分区挂载不了和rootfs分区readonly的问题，但目前此系统基本上没什么太大的问题。
 
 * `apt`的源默认为cn.ports.ubuntu.com
 
@@ -34,7 +32,7 @@ rootfs：ubuntu 15.10 arm64
 
 * 默认开启ssh，不想要的自己去关
 
-* 默认为命令行，想要图形界面的自己装（当然，我在想装一个unity，官方说不行，的却在armhf上会只显示一个空白桌面，但arm64呢？我试试）
+* 默认为命令行，想要图形界面的自己装（当然，我在想装一个unity，官方说不行，的却在armhf上会只显示一个空白桌面，是因为没有硬件加速）
 
 * 第一次开机时不会拓展rootfs分区，意思是你需要自己拓展，用fdisk或gparted来拓展吧。
 
