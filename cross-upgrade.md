@@ -1,3 +1,7 @@
+其实你可以直接执行`do-release-updrade -d`就行了
+
+以下是复制的官方的说明
+
 Cross-upgrading 14.04 to 16.04
 
 You can upgrade an old unofficial 14.04 installation to the official 16.04 installation, though it takes a number of additional steps.
