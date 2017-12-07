@@ -33,8 +33,11 @@ Install new firmware, u-boot and 4.4.0 kernel metapackages.
 Install the RPI2 DT-compatible u-boot image.
 
 `apt-get install binutils` # for "strings" 
+
 `wget -O /tmp/mkknlimg https://raw.githubusercontent.com/raspberrypi/linux/rpi-4.4.y/scripts/mkknlimg`
+
 `chmod 0755 /tmp/mkknlimg` 
+
 `/tmp/mkknlimg --dtok /usr/lib/u-boot/rpi_2/u-boot.bin /boot/firmware/uboot.bin`
 
 Install basic config.txt and cmdline.txt configurations. If your root device is not on the second SD partition (uncommon) or you have a more advanced configuration, recreate them here.
