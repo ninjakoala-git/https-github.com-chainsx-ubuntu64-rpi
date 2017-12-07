@@ -55,5 +55,5 @@ E-mail:chainsx@outlook.com    1396219808@qq.com
 打包了的:https://pan.baidu.com/s/1mi7PE1E
 
 ### 重要 重要 重要
-请自行将源换成mirrors.opencas.org
+请自行将源换成www.opencas.org/mirrors
 不然apt无法使用
