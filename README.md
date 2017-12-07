@@ -16,13 +16,11 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 ## 关于:
 
-* 本系统三个部分由以下组成
-
-boot:由ubuntu 16.04 armhf for rpi2（官方镜像）提取
+* 本系统由以下组成
 
 firmware：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
 
-rootfs：ubuntu 15.10 arm64（你可以交叉升级到16.04，因为有人问什么是交叉升级，[点击这里](https://github.com/chainsx/ubuntu64-rpi/edit/master/cross-upgrade.md)）
+rootfs：ubuntu 15.10 arm64（你可以交叉升级到16.04，因为有人问什么是交叉升级，[点击这里](https://github.com/chainsx/ubuntu64-rpi/blob/master/cross-upgrade.md)）
 
 * 当然了，这个系统肯定不稳定（废话，当然知道），如开机时会连接某个地址，会等很久，目前还未解决。
 
