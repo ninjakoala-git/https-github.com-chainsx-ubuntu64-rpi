@@ -1,7 +1,5 @@
 # rpi3-ubuntu-aarch64
 
-A project of ubuntu aarch64 for Raspberrypi3
-
 ## 前言：
 
 ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的。。。。），太不厚道了。（但据说是因为16.04何rpi3发布时间隔的太近了）
