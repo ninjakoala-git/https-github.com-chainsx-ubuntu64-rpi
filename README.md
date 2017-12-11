@@ -60,4 +60,4 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ## 下载地址：
 
-文件已上传到gitee.com，[点此下载](https://gitee.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/ubuntu-16.04.3-arm64.img.zip)
+上传中
