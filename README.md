@@ -60,4 +60,4 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ## 下载地址：
 
-上传中
+请移步gitee下载
