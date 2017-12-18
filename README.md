@@ -1,4 +1,4 @@
-# rpi3-ubuntu-aarch64
+# rpi3-ubuntu-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/README-EN.md)
 
 [Gitee项目地址](https://gitee.com/chainsx/ubuntu64-rpi)
 
