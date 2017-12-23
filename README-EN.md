@@ -1,10 +1,10 @@
 # ubuntu-rpi64
 
-ubuntu-rpi64 is an experimental 64-bit OS for the Raspberry Pi 3. It is based on ubuntu 16.04.3 and backed by a 4.9 Linux kernel.
+ubuntu-rpi64 is an experimental 64-bit OS for the Raspberry Pi 3. It is based on ubuntu 17.04 and backed by a 4.9 Linux kernel.
 
 ## About
 
-There are two versions: ubuntu 15.10 and ubuntu 16.04.
+There are three versions: ubuntu 15.10 , ubuntu 16.04 and ubuntu 17.04.
 
 But the stable one is ubuntu 16.04.3.
 
@@ -32,6 +32,4 @@ On the lite version, SSH is enabled by default.
 
 `sudo apt-get install libc6:armhf`
 
-* This system add a swap file at the rootfs,
-
-* I use the `preload` to prelod softwares.
+* This system buiding based ubuntu-Base-17.04
