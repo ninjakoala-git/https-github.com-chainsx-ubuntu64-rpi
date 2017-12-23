@@ -1,24 +1,14 @@
-# rpi3-ubuntu-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/README-EN.md)
+# rpi3-ubuntu-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/README-EN.md)
 
-[Gitee项目地址](https://gitee.com/chainsx/ubuntu64-rpi)
 
 ## 前言：
 
 ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的。。。。），太不厚道了。（但据说是因为16.04何rpi3发布时间隔的太近了）
 
-那现在17.04都出来了你还有什么理由解释呢(17.04优先适配pi2，pi3现在还没消息。。你可以出门左转找到对于pi3的17.04的版本https://github.com/chainsx/ubuntu-17.04-for-RaspberryPi3
 
 在此呢，感谢bamarni提供的思路，他也有一个64位树莓派系统的项目debian arm64，项目地址https://github.com/bamarni/pi64
 
 ## 使用说明：
-
-* 集成了基于树莓派基金会的`raspi-config`
-
-使用命令: `raspi-config`
-
-* 添加了`chainsx-config`
-
-使用命令: `chainsx-config`
 
 * 因为是64位系统，所以你可以开启32位支持,开启方法：
 
@@ -30,25 +20,23 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 ## 关于:
 
-* 关于在15.10中开机时间慢的问题已完美解决
+* 本系统是直接基于ubuntu-Base-17.04-arm64构建的根目录，非移植版，所以稳定性有提升，但是整个系统不够完善。
 
 * 现在的开机时间（从执行reboot到ssh连上）不到10秒，超过了官方raspbian lite，更超过了同类的pi64
-
-* 关于系统流畅度，系统流畅度大大提高，增加了swap交换分区，以及使用preload来预加载程序
 
 * 本系统由以下组成
 
 firmware：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
 
-rootfs：ubuntu 16.04.3 arm64
+rootfs：ubuntu-Base-arm64(根目录构建)
 
-* `apt`的源默认为cn.ports.ubuntu.com
+* `apt`的源默认为清华软件源
 
 * 默认用户：ubuntu      密码：ubuntu       root用户密码：root      
 
 * 默认开启ssh，不想要的自己去关
 
-* 默认为命令行，想要图形界面的自己装（当然，我在想装一个unity，官方说不行，的却在armhf上会只显示一个空白桌面，是因为没有硬件加速）
+* 默认为命令行，想要图形界面的自己装，关于unity，官方说armhf不能显示桌面是因为没有硬件加速，但在arm64上安装unity后可以用vnc连上并显示桌面，实际情况我没有试过。(安装unity命令`sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal`，使用vnc时要替换掉xstartup，命令)
 
 * 第一次开机时不会拓展rootfs分区，意思是你需要自己拓展，用fdisk或gparted来拓展吧。
 
@@ -62,4 +50,3 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ## 下载地址：
 
-https://pan.baidu.com/s/1qY9OpWC
