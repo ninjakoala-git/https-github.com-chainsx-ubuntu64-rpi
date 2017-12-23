@@ -33,3 +33,8 @@ On the lite version, SSH is enabled by default.
 `sudo apt-get install libc6:armhf`
 
 * This system buiding based ubuntu-Base-17.04
+
+************************
+# Download link
+
+https://1drv.ms/u/s!Aj2tyhuVKq9-c6eH_pbiP2gUnI8
