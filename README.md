@@ -1,9 +1,9 @@
 # rpi3-ubuntu-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/README-EN.md)
-<<<<<<< HEAD
-### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
-=======
 
->>>>>>> fix some problem
+### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
+
+
+
 
 ## 前言：
 
@@ -26,11 +26,11 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 * 本系统是直接基于ubuntu-Base-17.04-arm64构建的根目录，非移植版，所以稳定性有提升，但是整个系统不够完善。
 
-<<<<<<< HEAD
+
 * 现在的开机时间不到10秒，超过了官方raspbian lite
-=======
+
 * 现在的开机时间（从执行reboot到ssh连上）不到10秒，超过了官方raspbian lite，更超过了同类的pi64
->>>>>>> fix some problem
+
 
 * 本系统由以下组成
 
@@ -40,11 +40,11 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 
 * `apt`的源默认为清华软件源
 
-<<<<<<< HEAD
+
 * 默认用户：ubuntu      密码：ubuntu          
-=======
+
 * 默认用户：ubuntu      密码：ubuntu       root用户密码：root      
->>>>>>> fix some problem
+
 
 * 默认开启ssh，不想要的自己去关
 
@@ -74,10 +74,7 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ## 下载地址：
 
-<<<<<<< HEAD
+
 百度云链接:https://pan.baidu.com/s/1nvoWsNB 密码:v54r
 
 yandex.disk:https://yadi.sk/d/ysdTPoeF3R7LCU
-=======
-链接:https://pan.baidu.com/s/1nvoWsNB 密码:v54r
->>>>>>> fix some problem
