@@ -1,0 +1,8 @@
+deb http://cn.ports.ubuntu.com/ubuntu_ports/ zesty main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ zesty main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ubuntu-ports/ zesty-updates main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ zesty-updates main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ubuntu-ports/ zesty-backports main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ zesty-backports main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ubuntu-ports/ zesty-security main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ zesty-security main restricted universe multiverse
