@@ -78,3 +78,7 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 百度云链接:https://pan.baidu.com/s/1nvoWsNB 密码:v54r
 
 yandex.disk:https://yadi.sk/d/ysdTPoeF3R7LCU
+
+mega网盘:https://mega.nz/#!wqwUgSrY!5a-0gcJecn9X94_Ahr6g4OBISl7CbFNk_ZJXkKvIHr4
+
+sandisk cloud:https://sandisk.upthere.com/loop/c0fe40d8a0919986d822e8754e0c5553c3049b6ba244f9ee3d0edcdbeecb3a1c
