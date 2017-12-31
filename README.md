@@ -74,6 +74,7 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ## 下载地址：
 
+onedrive:https://1drv.ms/u/s!Aj2tyhuVKq9-c6eH_pbiP2gUnI8
 
 百度云链接:https://pan.baidu.com/s/1nvoWsNB 密码:v54r
 
