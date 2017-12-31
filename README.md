@@ -81,4 +81,4 @@ yandex.disk:https://yadi.sk/d/ysdTPoeF3R7LCU
 
 mega网盘:https://mega.nz/#!wqwUgSrY!5a-0gcJecn9X94_Ahr6g4OBISl7CbFNk_ZJXkKvIHr4
 
-sandisk cloud:https://sandisk.upthere.com/loop/c0fe40d8a0919986d822e8754e0c5553c3049b6ba244f9ee3d0edcdbeecb3a1c
+sandisk.cloud:https://sandisk.upthere.com/loop/c0fe40d8a0919986d822e8754e0c5553c3049b6ba244f9ee3d0edcdbeecb3a1c
