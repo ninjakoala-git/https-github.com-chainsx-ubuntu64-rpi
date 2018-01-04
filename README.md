@@ -54,14 +54,6 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 
 * 关于vnc，在arm64上安装unity后可以用vnc连上并显示桌面，实际情况我没有试过。
 
-(安装unity命令：
-
-`sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal`
-
-使用vnc时要替换掉xstartup，命令：
-
-`cd .ssh && wget https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-17.04-arm64/vnc/xstartup`)
-
 * 第一次开机时不会拓展rootfs分区，意思是你需要自己拓展，用fdisk或gparted来拓展吧。
 
 * 还有什么的，，，联系我吧，毕竟我能力有限，有能力有精力有时间的可以帮忙一起完善这个项目。
