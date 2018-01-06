@@ -55,6 +55,7 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 
 * 还有什么的，，，联系我吧，毕竟我能力有限，有能力有精力有时间的可以帮忙一起完善这个项目。
 
+* 关于ext4的扩容方法，在Documentation里，f2fs扩容有点复杂，暂不解释。
 QQ:1396219808(CX_rootfs)
 
 E-mail:chainsx@outlook.com    i@chainsx.cn
@@ -71,7 +72,7 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 | [中国西南片区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) |
 
-使用F2FS文件系统（推荐）:
+使用F2FS文件系统（不稳定）:
 
 | [中国西南片区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) |
 
@@ -79,4 +80,4 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 使用EXT4文件系统：https://pan.baidu.com/s/1c2325k0
 
-使用F2FS文件系统（推荐）：https://pan.baidu.com/s/1skDBpq1
+使用F2FS文件系统（不稳定）：https://pan.baidu.com/s/1skDBpq1
