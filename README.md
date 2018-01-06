@@ -2,7 +2,7 @@
 
 ### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
 
-
+# 经测试，性能最高提高60倍!!!
 
 
 ## 前言：
