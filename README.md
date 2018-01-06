@@ -63,12 +63,20 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ## 下载地址：
 
-onedrive:https://1drv.ms/u/s!Aj2tyhuVKq9-c6eH_pbiP2gUnI8
+### 腾讯云(tencent cloud)
 
-百度云链接:https://pan.baidu.com/s/1nvoWsNB 密码:v54r
+#### 注意：请不要使用例如迅雷，快车，电驴，ADM，aria2等下载工具下载，请使用浏览器内建下载/wget等非分块下载的工具下载
 
-yandex.disk:https://yadi.sk/d/ysdTPoeF3R7LCU
+使用EXT4文件系统:
 
-mega网盘:https://mega.nz/#!wqwUgSrY!5a-0gcJecn9X94_Ahr6g4OBISl7CbFNk_ZJXkKvIHr4
+[中国西南片区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz)
 
-sandisk.cloud:https://sandisk.upthere.com/loop/c0fe40d8a0919986d822e8754e0c5553c3049b6ba244f9ee3d0edcdbeecb3a1c
+使用F2FS文件系统（推荐）:
+
+[中国西南片区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz)
+
+### 百度网盘(Baidu Netdisk)
+
+使用EXT4文件系统：https://pan.baidu.com/s/1c2325k0
+
+使用F2FS文件系统（推荐）：https://pan.baidu.com/s/1skDBpq1
