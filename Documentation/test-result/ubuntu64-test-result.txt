@@ -1,0 +1,368 @@
+Welcome to Ubuntu 17.04 (GNU/Linux 4.11.12-pi64+ aarch64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Sat Jan  6 22:40:07 2018 from 192.168.1.101
+root@ubuntu:~# apt install sysbench htop iperf3
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libiperf0 libmysqlclient20 mysql-common
+Suggested packages:
+  lsof strace
+The following NEW packages will be installed
+  htop iperf3 libiperf0 libmysqlclient20 mysql-common sysbench
+0 to upgrade, 6 to newly install, 0 to remove and 20 not to upgrade.
+Need to get 943 kB of archives.
+After this operation, 4,864 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports zesty/universe arm64 htop arm64 2.0.2-1 [65.9 kB]
+Get:2 http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports zesty/universe arm64 libiperf0 arm64 3.1.3-1 [46.3 kB]
+Get:3 http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports zesty/universe arm64 iperf3 arm64 3.1.3-1 [8,788 B]
+Get:4 http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports zesty/main arm64 mysql-common all 5.8+1.0.2ubuntu1 [5,782 B]
+Get:5 http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports zesty-updates/main arm64 libmysqlclient20 arm64 5.7.20-0ubuntu0.17.04.1 [763 kB]
+Get:6 http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports zesty/universe arm64 sysbench arm64 0.4.12-1.2 [53.0 kB]
+Fetched 943 kB in 5s (176 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package htop.
+(Reading database ... 32961 files and directories currently installed.)
+Preparing to unpack .../0-htop_2.0.2-1_arm64.deb ...
+Unpacking htop (2.0.2-1) ...
+Selecting previously unselected package libiperf0:arm64.
+Preparing to unpack .../1-libiperf0_3.1.3-1_arm64.deb ...
+Unpacking libiperf0:arm64 (3.1.3-1) ...
+Selecting previously unselected package iperf3.
+Preparing to unpack .../2-iperf3_3.1.3-1_arm64.deb ...
+Unpacking iperf3 (3.1.3-1) ...
+Selecting previously unselected package mysql-common.
+Preparing to unpack .../3-mysql-common_5.8+1.0.2ubuntu1_all.deb ...
+Unpacking mysql-common (5.8+1.0.2ubuntu1) ...
+Selecting previously unselected package libmysqlclient20:arm64.
+Preparing to unpack .../4-libmysqlclient20_5.7.20-0ubuntu0.17.04.1_arm64.deb ...
+Unpacking libmysqlclient20:arm64 (5.7.20-0ubuntu0.17.04.1) ...
+Selecting previously unselected package sysbench.
+Preparing to unpack .../5-sysbench_0.4.12-1.2_arm64.deb ...
+Unpacking sysbench (0.4.12-1.2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Setting up mysql-common (5.8+1.0.2ubuntu1) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up libiperf0:arm64 (3.1.3-1) ...
+Setting up libmysqlclient20:arm64 (5.7.20-0ubuntu0.17.04.1) ...
+Setting up sysbench (0.4.12-1.2) ...
+Setting up iperf3 (3.1.3-1) ...
+Setting up htop (2.0.2-1) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+root@ubuntu:~# sysbench --test=cpu --num-threads=1 --max-requests=10000 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          12.4840s
+    total number of events:              10000
+    total time taken by event execution: 12.4798
+    per-request statistics:
+         min:                                  1.23ms
+         avg:                                  1.25ms
+         max:                                  7.95ms
+         approx.  95 percentile:               1.25ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   12.4798/0.00
+
+root@ubuntu:~# sysbench --test=cpu --num-threads=4 --max-requests=100000 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          31.1322s
+    total number of events:              100000
+    total time taken by event execution: 124.4868
+    per-request statistics:
+         min:                                  1.23ms
+         avg:                                  1.24ms
+         max:                                  3.92ms
+         approx.  95 percentile:               1.25ms
+
+Threads fairness:
+    events (avg/stddev):           25000.0000/14.65
+    execution time (avg/stddev):   31.1217/0.00
+
+root@ubuntu:~# sysbench --test=cpu --num-threads=8 --max-requests=100000 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          31.1079s
+    total number of events:              100000
+    total time taken by event execution: 248.7331
+    per-request statistics:
+         min:                                  1.23ms
+         avg:                                  2.49ms
+         max:                                 19.26ms
+         approx.  95 percentile:              11.24ms
+
+Threads fairness:
+    events (avg/stddev):           12500.0000/11.34
+    execution time (avg/stddev):   31.0916/0.01
+root@ubuntu:~# sysbench --test=memory --memory-block-size=1K --memory-total-size=1G --memory-access-mode=rnd run sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing memory operations speed test
+Memory block size: 1K
+
+Memory transfer size: 1024M
+
+Memory operations type: write
+Memory scope type: global
+Threads started!
+Done.
+
+Operations performed: 1048576 (803835.61 ops/sec)
+
+1024.00 MB transferred (785.00 MB/sec)
+
+
+Test execution summary:
+    total time:                          1.3045s
+    total number of events:              1048576
+    total time taken by event execution: 0.9564
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.14ms
+         approx.  95 percentile:               0.00ms
+
+Threads fairness:
+    events (avg/stddev):           1048576.0000/0.00
+    execution time (avg/stddev):   0.9564/0.00
+root@ubuntu:~# sysbench --test=memory --memory-block-size=1K --memory-total-size=1G --memory-access-mode=seq run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing memory operations speed test
+Memory block size: 1K
+
+Memory transfer size: 1024M
+
+Memory operations type: write
+Memory scope type: global
+Threads started!
+Done.
+
+Operations performed: 1048576 (651197.63 ops/sec)
+
+1024.00 MB transferred (635.94 MB/sec)
+
+
+Test execution summary:
+    total time:                          1.6102s
+    total number of events:              1048576
+    total time taken by event execution: 1.2890
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.09ms
+         approx.  95 percentile:               0.00ms
+
+Threads fairness:
+    events (avg/stddev):           1048576.0000/0.00
+    execution time (avg/stddev):   1.2890/0.00
+root@ubuntu:~# sysbench --test=threads --num-threads=1000 --thread-yields=1000 --thread-locks=8 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1000
+
+Doing thread subsystem performance test
+Thread yields per test: 1000 Locks used: 8
+Threads started!
+Done.
+
+
+Test execution summary:
+    total time:                          15.5640s
+    total number of events:              10000
+    total time taken by event execution: 14921.7264
+    per-request statistics:
+         min:                                  2.21ms
+         avg:                               1492.17ms
+         max:                               6842.55ms
+         approx.  95 percentile:            3308.30ms
+
+Threads fairness:
+    events (avg/stddev):           10.0000/1.71
+    execution time (avg/stddev):   14.9217/0.28
+root@ubuntu:~# sysbench --test=mutex --mutex-num=4096 --mutex-locks=50000 --mutex-loops=10000 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing mutex performance test
+Threads started!
+Done.
+
+
+Test execution summary:
+    total time:                          0.0191s
+    total number of events:              1
+    total time taken by event execution: 0.0184
+    per-request statistics:
+         min:                                 18.44ms
+         avg:                                 18.44ms
+         max:                                 18.44ms
+         approx.  95 percentile:         10000000.00ms
+
+Threads fairness:
+    events (avg/stddev):           1.0000/0.00
+    execution time (avg/stddev):   0.0184/0.00
+
+root@ubuntu:~#
+root@ubuntu:~# sysbench --test=mutex --mutex-num=4096 --mutex-locks=50000 --mutex-loops=10000 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing mutex performance test
+Threads started!
+Done.
+
+
+Test execution summary:
+    total time:                          0.0191s
+    total number of events:              1
+    total time taken by event execution: 0.0183
+    per-request statistics:
+         min:                                 18.26ms
+         avg:                                 18.26ms
+         max:                                 18.26ms
+         approx.  95 percentile:         10000000.00ms
+
+Threads fairness:
+    events (avg/stddev):           1.0000/0.00
+    execution time (avg/stddev):   0.0183/0.00
+
+root@ubuntu:~#
+root@ubuntu:~# sysbench --test=fileio --file-num=2 --file-total-size=64M --file-test-mode=seqrewr run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Extra file open flags: 0
+2 files, 32Mb each
+64Mb total file size
+Block size 16Kb
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential rewrite test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 4096 Write, 2 Other = 4098 Total
+Read 0b  Written 64Mb  Total transferred 64Mb  (8.868Mb/sec)
+  567.55 Requests/sec executed
+
+Test execution summary:
+    total time:                          7.2170s
+    total number of events:              4096
+    total time taken by event execution: 0.3604
+    per-request statistics:
+         min:                                  0.04ms
+         avg:                                  0.09ms
+         max:                                  0.47ms
+         approx.  95 percentile:               0.11ms
+
+Threads fairness:
+    events (avg/stddev):           4096.0000/0.00
+    execution time (avg/stddev):   0.3604/0.00
+
+root@ubuntu:~#
+root@ubuntu:~# sysbench --test=fileio --file-num=2 --file-total-size=64M --file-test-mode=rndwr run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Extra file open flags: 0
+2 files, 32Mb each
+64Mb total file size
+Block size 16Kb
+Number of random requests for random IO: 10000
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Done.
+
+Operations performed:  0 Read, 10000 Write, 200 Other = 10200 Total
+Read 0b  Written 156.25Mb  Total transferred 156.25Mb  (6.9743Mb/sec)
+  446.36 Requests/sec executed
+
+Test execution summary:
+    total time:                          22.4037s
+    total number of events:              10000
+    total time taken by event execution: 0.5636
+    per-request statistics:
+         min:                                  0.02ms
+         avg:                                  0.06ms
+         max:                                  0.24ms
+         approx.  95 percentile:               0.08ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   0.5636/0.00
+
+root@ubuntu:~# df -Th
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      f2fs       15G  1.2G   14G   9% /
+devtmpfs       devtmpfs  453M     0  453M   0% /dev
+tmpfs          tmpfs     458M     0  458M   0% /dev/shm
+tmpfs          tmpfs     458M   14M  445M   3% /run
+tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
+tmpfs          tmpfs     458M     0  458M   0% /sys/fs/cgroup
+/dev/mmcblk0p1 vfat      127M   37M   90M  29% /boot
+tmpfs          tmpfs      92M     0   92M   0% /run/user/0
+root@ubuntu:~#
