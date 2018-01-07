@@ -57,6 +57,10 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 
 * 关于ext4的扩容方法，在Documentation里，f2fs扩容有点复杂，暂不解释。
 
+## 项目求助：
+
+现在急求大神帮忙一起完善此系统，有意者联系我
+
 QQ:1396219808(CX_rootfs)
 
 E-mail:chainsx@outlook.com    i@chainsx.cn
