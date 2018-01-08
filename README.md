@@ -75,14 +75,14 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 使用EXT4文件系统:
 
-| [中国西南片区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) |
+| [华南地区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) |
 
-使用F2FS文件系统（不稳定）:
+使用F2FS文件系统（不稳定，仅测试用）:
 
-| [中国西南片区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) |
+| [华南地区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) |
 
 ### 百度网盘(Baidu Netdisk)
 
 使用EXT4文件系统：https://pan.baidu.com/s/1c2325k0
 
-使用F2FS文件系统（不稳定）：https://pan.baidu.com/s/1skDBpq1
+使用F2FS文件系统（不稳定，仅测试用）：https://pan.baidu.com/s/1skDBpq1
