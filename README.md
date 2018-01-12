@@ -78,6 +78,6 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ### 百度网盘(Baidu Netdisk)
 
-使用EXT4文件系统：https://pan.baidu.com/s/1c2325k0
-
-使用F2FS文件系统（不稳定，仅测试用）：https://pan.baidu.com/s/1skDBpq1
+|使用EXT4文件系统|[链接](https://pan.baidu.com/s/1c2325k0)|
+|------|--------|
+|使用F2FS文件系统（不稳定，仅测试用）|[链接](https://pan.baidu.com/s/1skDBpq1)|
