@@ -39,9 +39,7 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 * `apt`的源默认为清华软件源
 
 
-* 默认用户：ubuntu      密码：ubuntu          
-
-* 默认用户：ubuntu      密码：ubuntu       root用户密码：root      
+* 默认用户：ubuntu      密码：ubuntu  
 
 
 * 默认开启ssh，不想要的自己去关
