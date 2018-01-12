@@ -82,6 +82,7 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 使用F2FS文件系统（不稳定，仅测试用）:
 
 | [华南地区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) |
+|-------|--------|
 
 ### 百度网盘(Baidu Netdisk)
 
