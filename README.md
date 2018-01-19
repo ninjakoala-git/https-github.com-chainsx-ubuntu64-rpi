@@ -70,6 +70,8 @@ E-mail:chainsx@outlook.com    i@chainsx.cn
 
 ### 腾讯云(tencent cloud)
 
+#### （如遇公网流量达到上限而不可下载时请使用百度网盘）
+
 #### 注意：公网流量有限，请不要使用例如迅雷，快车，电驴，ADM，aria2等下载工具下载，请使用浏览器内建下载/wget等非分块下载的工具下载，感谢你的支持。
 
 |使用EXT4文件系统| [华南地区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) |
