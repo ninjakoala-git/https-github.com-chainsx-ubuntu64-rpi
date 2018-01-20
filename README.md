@@ -1,4 +1,4 @@
-# rpi3-ubuntu-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/README-EN.md)
+# RaspberryPi3-ubuntu-17.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/README-EN.md)
 ### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
 # 经测试，性能最高提高60倍!!!
 ## 拒绝伸手党，如果你给我反馈意见及bug的话，我会感激不尽。
