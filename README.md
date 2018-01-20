@@ -68,7 +68,7 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 
 * 还有什么的，，，联系我吧，毕竟我能力有限，有能力有精力有时间的可以帮忙一起完善这个项目。
 
-* 关于ext4的扩容方法，在Documentation里，f2fs扩容有点复杂，暂不解释。
+* 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)，f2fs扩容有点复杂，暂不解释。
 
 ## 项目求助：
 
