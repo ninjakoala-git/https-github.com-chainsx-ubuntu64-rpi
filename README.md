@@ -15,6 +15,7 @@
 * 基于ext4文件系统的ubuntu使用的内核（kernel）为**最简版**，不支持xfs/f2fs等文件系统，也不支持wifi和蓝牙，如需请**自行**编译。
 * 基于f2fs文件系统的ubuntu使用的是pi64的内核，支持wifi，蓝牙，xfs/f2fs等文件系统。
 * 可以转载，推广甚至修改本系统，但**必须注明出处**。
+* 你可以基于本系统打造更加完善的系统，但**必须注明出处**。
 #### …………
 
 ## 使用说明：
@@ -28,6 +29,25 @@ sudo apt-get install libc6:armhf
 sudo dpkg --add-architechture armel  #开启armel支持
 sudo apt-get update
 sudo apt-get install libc6-armhf
+```
+
+* 为不同的架构指定不同的源，你需要编辑`/etc/apt/sources.list`
+
+```
+deb [arch=armel] http://cn.ports.ubuntu.com/ubuntu-ports quantal main universe   #ubuntu官方中国源
+deb [arch=armhf] http://ftp.cn.debian.org/ubuntu-ports quantal main universe    #科大源
+deb [arch=arm64] http://ftp2.cn.debian.org/ubuntu-ports quantal main universe    #清华源
+```
+
+#### [官方帮助文档MultiArch](https://wiki.debian.org/Multiarch/HOWTO)
+
+* 添加树莓派官方软件源镜像（安装树莓派官方提供的特有软件包）
+
+```
+sudo apt-get update
+sudo apt-get install debian-keyring
+echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/archive.raspberrypi.org main ui untested staging" >> /etc/apt/sources.list
+echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib firmware non-free rpi" >> /etc/apt/sources.list
 ```
 
 ## 关于:
