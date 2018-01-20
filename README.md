@@ -28,11 +28,15 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 * 因为是64位系统，所以你可以开启32位支持,开启方法：
 
-`sudo dpkg --add-architecture armhf`
+```
 
-`sudo apt-get update`
+sudo dpkg --add-architecture armhf
 
-`sudo apt-get install libc6:armhf`
+sudo apt-get update
+
+sudo apt-get install libc6:armhf
+
+```
 
 ## 关于:
 
@@ -46,27 +50,21 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 
 * 本系统由以下组成
 
-firmware：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
+**firmware** ：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
 
-rootfs：ubuntu-Base-arm64(根目录构建)
+**rootfs** ：ubuntu-Base-arm64(根目录构建)
 
 * `apt`的源默认为清华软件源
 
 
-* 默认用户：ubuntu      密码：ubuntu  
+* 默认用户：`ubuntu`      密码：`ubuntu`
 
 
 * 默认开启ssh，不想要的自己去关
 
 * 默认为命令行，想要图形界面的自己装
 
-* 关于unity，官方说armhf不能显示桌面是因为没有硬件加速。
-
-* 关于vnc，在arm64上安装unity后可以用vnc连上并显示桌面，实际情况我没有试过。
-
 * 第一次开机时不会拓展rootfs分区，意思是你需要自己拓展，用fdisk或gparted来拓展吧。
-
-* 还有什么的，，，联系我吧，毕竟我能力有限，有能力有精力有时间的可以帮忙一起完善这个项目。
 
 * 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)，f2fs扩容有点复杂，暂不解释。
 
@@ -74,9 +72,10 @@ rootfs：ubuntu-Base-arm64(根目录构建)
 
 现在急求大神帮忙一起完善此系统，有意者联系我
 
-QQ:1396219808(CX_rootfs)
-
-E-mail:chainsx@outlook.com    i@chainsx.cn
+|  联系方式   |           |
+|-----------|------------|
+|QQ|1396219808(CX_rootfs)|
+|E-mail|chainsx@outlook.com i@chainsx.cn|
 
 **********************
 
