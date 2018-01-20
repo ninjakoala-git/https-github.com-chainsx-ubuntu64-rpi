@@ -40,36 +40,21 @@ sudo apt-get install libc6-armhf
 ## 关于:
 
 * 本系统是直接基于ubuntu-Base-17.04-arm64构建的根目录，非移植版，所以稳定性有提升，但是整个系统不够完善。
-
-
 * 现在的开机时间不到10秒，超过了官方raspbian lite,吊打同类的pi64(国外人士移植的debian arm64)，相信我们中国人的实力！！！
-
 * 现在的开机时间（从执行reboot到ssh连上）不到10秒，超过了官方raspbian lite，更超过了同类的pi64
-
-
 * 本系统由以下组成
-
 **firmware** ：由树莓派基金会官方提供的linux-rpi-4.9.y编译的aarch64内核
-
 **rootfs** ：ubuntu-Base-arm64(根目录构建)
-
 * `apt`的源默认为清华软件源
-
-
 * 默认用户：`ubuntu`      密码：`ubuntu`
-
-
 * 默认开启ssh，不想要的自己去关
-
 * 默认为命令行，想要图形界面的自己装
-
 * 第一次开机时不会拓展rootfs分区，意思是你需要自己拓展，用fdisk或gparted来拓展吧。
-
 * 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)，f2fs扩容有点复杂，暂不解释。
 
 ## 项目求助：
 
-现在急求大神帮忙一起完善此系统，有意者联系我
+现在急求大神帮忙一起完善此系统，有意者请联系我
 
 |  联系方式   |           |
 |-----------|------------|
