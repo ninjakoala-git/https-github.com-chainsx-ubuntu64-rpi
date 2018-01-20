@@ -29,13 +29,12 @@ ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Ele
 * 因为是64位系统，所以你可以开启32位支持,开启方法：
 
 ```
-
-sudo dpkg --add-architecture armhf
-
+sudo dpkg --add-architecture armhf   #开启armhf支持
 sudo apt-get update
-
 sudo apt-get install libc6:armhf
-
+sudo dpkg --add-architechture armel  #开启armel支持
+sudo apt-get update
+sudo apt-get install libc6-armhf
 ```
 
 ## 关于:
