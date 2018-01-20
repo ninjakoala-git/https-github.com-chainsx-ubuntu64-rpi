@@ -59,12 +59,14 @@ sudo apt-get install libc6-armhf
 #### （如遇公网流量达到上限而不可下载时请使用百度网盘）
 #### 注意：公网流量有限，请不要使用例如迅雷，快车，电驴，ADM，aria2等下载工具下载，请使用浏览器内建下载/wget等非分块下载的工具下载，感谢你的支持。
 
+|文件系统 | 普通下载 |cdn下载 |
+|-----|------|---------|
 |使用EXT4文件系统| [华南地区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-ext4-RaspberryPi3.img.xz) |
-|-------|--------|-------|
 |使用F2FS文件系统（不稳定，仅测试用）| [华南地区](http://chainsx-1253770712.coscd.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) | [其他地区(使用cdn)](http://chainsx-1253770712.file.myqcloud.com/ubuntu-17.04-arm64-f2fs-RaspberryPi3.img.xz) |
 
 ### 百度网盘(Baidu Netdisk)
 
+|文件系统 | 下载链接 |
+|--------|--------|
 |使用EXT4文件系统|[链接](https://pan.baidu.com/s/1c2325k0)|
-|------|--------|
 |使用F2FS文件系统（不稳定，仅测试用）|[链接](https://pan.baidu.com/s/1skDBpq1)|
