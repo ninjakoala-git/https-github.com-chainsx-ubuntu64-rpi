@@ -23,12 +23,12 @@
 * 因为是64位系统，所以你可以开启32位支持,开启方法：
 
 ```
-sudo dpkg --add-architecture armhf   #开启armhf支持
-sudo apt-get update
-sudo apt-get install libc6:armhf
-sudo dpkg --add-architechture armel  #开启armel支持
-sudo apt-get update
-sudo apt-get install libc6-armhf
+root@ubuntu:~# dpkg --add-architecture armhf   #开启armhf支持
+root@ubuntu:~# apt-get update
+root@ubuntu:~# apt-get install libc6:armhf
+root@ubuntu:~# dpkg --add-architechture armel  #开启armel支持
+root@ubuntu:~# apt-get update
+root@ubuntu:~# apt-get install libc6-armhf
 ```
 
 * 为不同的架构指定不同的源，你需要编辑`/etc/apt/sources.list`
@@ -44,19 +44,20 @@ deb [arch=arm64] http://ftp2.cn.debian.org/ubuntu-ports quantal main universe   
 * 添加树莓派官方软件源镜像（安装树莓派官方提供的特有软件包）
 
 ```
-sudo apt-get update
-sudo apt-get install debian-keyring
-echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/archive.raspberrypi.org main ui untested staging" >> /etc/apt/sources.list
-echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib firmware non-free rpi" >> /etc/apt/sources.list
+root@ubuntu:~# apt-get update
+root@ubuntu:~# apt-get install debian-keyring
+root@ubuntu:~# echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/archive.raspberrypi.org main ui untested staging" >> /etc/apt/sources.list
+root@ubuntu:~# echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib firmware non-free rpi" >> /etc/apt/sources.list
 ```
 
 * 添加swap分区
 
 ```
-dd if=/dev/zero of=/swapfile bs=2048 count=1M     #创建一个大小为2G的文件：
-mkswap /swapfile     #把这个文件变成swap文件：
-swapon /swapfile     #启用这个swap文件：
-/swapfile swap swap default 0 0       #编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
+root@ubuntu:~# dd if=/dev/zero of=/swapfile bs=2048 count=1M     #创建一个大小为2G的文件
+root@ubuntu:~# mkswap /swapfile     #把这个文件变成swap文件
+root@ubuntu:~# swapon /swapfile     #启用这个swap文件
+#编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
+/swapfile swap swap default 0 0
 ```
 ********
 
