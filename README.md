@@ -53,14 +53,10 @@ echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib
 * 添加swap分区
 
 ```
-#创建一个大小为256M的文件：
-dd if=/dev/zero of=/swapfile bs=1024 count=262144
-#把这个文件变成swap文件：
-mkswap /swapfile
-#启用这个swap文件：
-swapon /swapfile
-#编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
-/swapfile swap swap default 0 0
+dd if=/dev/zero of=/swapfile bs=2048 count=1M     #创建一个大小为2G的文件：
+mkswap /swapfile     #把这个文件变成swap文件：
+swapon /swapfile     #启用这个swap文件：
+/swapfile swap swap default 0 0       #编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
 ```
 ********
 
