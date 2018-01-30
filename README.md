@@ -91,7 +91,7 @@ echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib
 
 |文件系统 | 下载链接 |
 |--------|--------|
-|使用EXT4文件系统|[链接]|
+|使用EXT4文件系统| |
 |使用F2FS文件系统（不稳定，仅测试用）| |
 
-# 关于源的问题不要问了，现在暂时不能用。。。。
+# 正在上传文件，请期待
