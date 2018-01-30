@@ -50,6 +50,20 @@ echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/archive.raspberrypi.org main u
 echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib firmware non-free rpi" >> /etc/apt/sources.list
 ```
 
+* 添加swap分区
+
+```
+#创建一个大小为256M的文件：
+dd if=/dev/zero of=/swapfile bs=1024 count=262144
+#把这个文件变成swap文件：
+mkswap /swapfile
+#启用这个swap文件：
+swapon /swapfile
+#编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
+/swapfile swap swap default 0 0
+```
+********
+
 ## 关于:
 
 * 本系统是直接基于ubuntu-Base-16.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升，但是整个系统不够完善。
