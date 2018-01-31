@@ -76,8 +76,6 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 * 第一次开机时不会拓展rootfs分区，意思是**需要你自己拓展**，用fdisk或gparted来拓展吧。
 * 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)，f2fs扩容有点复杂，暂不解释。
 
-## 项目求助：
-#### 现在急求大神帮忙一起完善此系统，有意者请联系我
 
 |  联系方式   |           |
 |-----------|------------|
@@ -102,7 +100,7 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 
 |文件系统 | 下载链接 |
 |--------|--------|
-|使用EXT4文件系统| |
+|使用EXT4文件系统| [链接](https://pan.baidu.com/s/1cTwzgU) |
 |使用F2FS文件系统（不稳定，仅测试用）| |
 
-# 正在上传文件，请期待
+
