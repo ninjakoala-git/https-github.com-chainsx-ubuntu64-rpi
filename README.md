@@ -99,7 +99,7 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 
 |文件系统 | 下载链接 |
 |--------|--------|
-|使用EXT4文件系统|  |
+|使用EXT4文件系统| [链接](https://pan.baidu.com/s/1qY9OpWC) |
 |使用F2FS文件系统（不稳定，仅测试用）| |
 
 ## 经测试的稳定版还未发布，请加群获取更多信息。
