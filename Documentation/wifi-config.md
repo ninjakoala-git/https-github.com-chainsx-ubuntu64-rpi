@@ -18,14 +18,7 @@ sudo iw dev wlan0 scan
 sudo iw dev wlan0 connect [网络 SSID]
 ```
 
-如果你的 WiFi 没有密码
-
-```
-network={
-ssid="你的无线网络名称（ssid）"
-key_mgmt=NONE
-}
-```
+但网络使用的是 WPA 或 WPA2 协议的话，事情就不好办了。这种情况，您就得使用叫做 wpa-supplicant 的工具，它默认是没有的。然后需要修改 /etc/wpa-supplicant/wpa_supplicant.conf 文件，增加如下行：
 
 如果你的 WiFi 使用WEP加密
 
@@ -42,7 +35,7 @@ wep_key0="你的wifi密码"
 ```
 network={
 ssid="你的无线网络名称（ssid）"
-key_mgmt=WPA-PSK
+key_mgmt=WPA-PS
 psk="你的wifi密码"
 }
 ```
