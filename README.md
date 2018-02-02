@@ -62,9 +62,8 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 * 新增配置中心
 
 集成了基于树莓派官方系统自带的的`raspi-config`
-使用命令: 
 ```
-raspi-config
+使用命令: raspi-config
 ```
 
 添加了`chainsx-config`
