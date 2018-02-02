@@ -24,13 +24,13 @@ sudo iw dev wlan0 connect [网络 SSID]
 sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
 ```
 
-但网络使用的是 WPA 或 WPA2 协议的话，事情就不好办了。这种情况，您就得使用叫做 wpasupplicant 的工具，它默认是没有的。然后需要修改 /etc/wpasupplicant/wpa_supplicant.conf 文件，增加如下行：
+但网络使用的是 WPA 或 WPA2 协议的话，事情就不好办了。这种情况，您就得使用叫做 wpasupplicant 的工具，它默认是没有的。然后需要修改 /etc/wpa-supplicant/wpa_supplicant.conf 文件，增加如下行：
 
 ```
 network={    ssid="[网络 ssid]"    psk="[密码]"    priority=1}
 ``
 
-我建议你​​在文件的末尾添加它，并确保其他配置都注释掉。要注意 SSID 和密码字串都是大小写敏感的。在技术上您也可以把接入点的名称当做是 SSID，使用 wpa_supplicant 工具的话会有合适的 SSID 来替代这个名字。
+我建议你在文件的末尾添加它，并确保其他配置都注释掉。要注意 SSID 和密码字串都是大小写敏感的。在技术上您也可以把接入点的名称当做是 SSID，使用 wpa_supplicant 工具的话会有合适的 SSID 来替代这个名字。
 
 一旦配置文件修改完成后，在后台启动此命令：
 
