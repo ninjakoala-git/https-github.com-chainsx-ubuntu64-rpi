@@ -1,4 +1,4 @@
-# 最新的16.04支持链接WiFi
+# 最新的16.04支持连接WiFi
 
 首先，你需要更改/etc/network/interfaces
 
