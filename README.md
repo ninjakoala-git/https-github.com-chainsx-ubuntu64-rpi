@@ -66,9 +66,9 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 使用命令: raspi-config
 ```
 
-添加了`chainsx-config`
+添加了`chainsx-tools`
 ```
-使用命令: chainsx-config
+使用命令: chainsx-tools
 ```
 ********
 
