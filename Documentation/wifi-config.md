@@ -87,3 +87,9 @@ psk="你的wifi密码"
 ```
 
 如果你不清楚 WiFi 的加密模式，可以在安卓手机上用 root explorer 打开 /data/misc/wifi/wpa/wpa_supplicant.conf，查看 WiFi 的信息。
+
+最后，设置权限
+
+`chmod 0755 wpa_supplicant.conf`
+
+这样以后，你就可以上电开机了。
