@@ -58,6 +58,19 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 #编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
 /swapfile swap swap default 0 0
 ```
+
+* 新增配置中心
+
+集成了基于树莓派官方系统自带的的`raspi-config`
+使用命令: 
+```
+raspi-config
+```
+
+添加了`chainsx-config`
+```
+使用命令: chainsx-config
+```
 ********
 
 ## 关于:
