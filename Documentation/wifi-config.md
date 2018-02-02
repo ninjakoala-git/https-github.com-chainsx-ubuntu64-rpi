@@ -19,10 +19,13 @@ sudo iw dev wlan0 connect [网络 SSID]
 ```
 
 如果网络是用 WEP 加密的，也非常容易：
+
 ```
 sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
 ```
+
 但网络使用的是 WPA 或 WPA2 协议的话，事情就不好办了。这种情况，您就得使用叫做 wpasupplicant 的工具，它默认是没有的。然后需要修改 /etc/wpasupplicant/wpa_supplicant.conf 文件，增加如下行：
+
 ```
 network={    ssid="[网络 ssid]"    psk="[密码]"    priority=1}
 ``
