@@ -28,7 +28,7 @@ sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
 
 ```
 network={    ssid="[网络 ssid]"    psk="[密码]"    priority=1}
-``
+```
 
 我建议你在文件的末尾添加它，并确保其他配置都注释掉。要注意 SSID 和密码字串都是大小写敏感的。在技术上您也可以把接入点的名称当做是 SSID，使用 wpa_supplicant 工具的话会有合适的 SSID 来替代这个名字。
 
