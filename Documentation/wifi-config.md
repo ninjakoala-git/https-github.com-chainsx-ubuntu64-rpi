@@ -18,18 +18,36 @@ sudo iw dev wlan0 scan
 sudo iw dev wlan0 connect [网络 SSID]
 ```
 
-如果网络是用 WEP 加密的，也非常容易：
+如果你的 WiFi 没有密码
 
 ```
-sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
+network={
+ssid="你的无线网络名称（ssid）"
+key_mgmt=NONE
+}
 ```
 
-但网络使用的是 WPA 或 WPA2 协议的话，事情就不好办了。这种情况，您就得使用叫做 wpasupplicant 的工具，它默认是没有的。然后需要修改 /etc/wpa-supplicant/wpa_supplicant.conf 文件，增加如下行：
+如果你的 WiFi 使用WEP加密
 
 ```
-network={    ssid="[网络 ssid]"    psk="[密码]"    priority=1}
+network={
+ssid="你的无线网络名称（ssid）"
+key_mgmt=NONE
+wep_key0="你的wifi密码"
+}
 ```
 
+如果你的 WiFi 使用WPA/WPA2加密
+
+```
+network={
+ssid="你的无线网络名称（ssid）"
+key_mgmt=WPA-PSK
+psk="你的wifi密码"
+}
+```
+
+如果你不清楚 WiFi 的加密模式，可以在安卓手机上用 root explorer 打开 /data/misc/wifi/wpa/wpa_supplicant.conf，查看 WiFi 的信息。
 我建议你在文件的末尾添加它，并确保其他配置都注释掉。要注意 SSID 和密码字串都是大小写敏感的。在技术上您也可以把接入点的名称当做是 SSID，使用 wpa_supplicant 工具的话会有合适的 SSID 来替代这个名字。
 
 一旦配置文件修改完成后，在后台启动此命令：
