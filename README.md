@@ -73,8 +73,7 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 ## 关于:
 
 * 本系统是直接基于ubuntu-Base-16.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升，但是整个系统不够完善。
-* 现在的开机时间不到10秒，超过了官方raspbian lite,吊打同类的pi64(国外人士移植的debian arm64)，相信我们中国人的实力！！！
-* 现在的开机时间（从执行reboot到ssh连上）不到10秒，超过了官方raspbian lite，更超过了同类的pi64
+* 现在的开机时间不到10秒，超过了官方raspbian lite,吊打同类的pi64(国外人士移植的debian arm64)。
 * 本系统由以下组成
 #### **firmware** ：由树莓派基金会官方提供的linux-rpi-4.11.y编译的aarch64内核
 #### **rootfs** ：ubuntu-Base-arm64(根目录构建)
