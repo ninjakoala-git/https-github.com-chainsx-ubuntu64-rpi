@@ -106,7 +106,7 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 
 ### 百度网盘(Baidu Netdisk)
 
-|文件系统 | 下载链接 |
+| 版本 | 下载链接 |
 |--------|--------|
 | Stable | [链接](https://pan.baidu.com/s/1kWSE0kf) |
 | Alpha  | [链接](https://pan.baidu.com/s/1snt6ByX) |
