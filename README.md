@@ -9,7 +9,6 @@
 
 ## 声明：
 * 本系统由我（chainsx）自行构建的根目录以及boot。
-* 本系统为最简化ubuntu，如需桌面请自行安装。
 * 如需定制版以及商业用途，请**务必**与本人联系。
 * 可以转载，推广甚至修改本系统，但**必须注明出处**。
 * 你可以基于本系统打造更加完善的系统，但**必须注明出处**。
@@ -35,7 +34,8 @@
 * `apt`的源默认为清华软件源
 * 默认用户：`ubuntu`      密码：`ubuntu`
 * 支持wifi，配置方法[在这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/wifi-config.md)。
-* 默认开启ssh，不想要的自己去关
+* 如果你需要安装桌面的话，[看这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/install-desktop.md)
+* 默认开启ssh，不想要的自己去关。
 * 默认为命令行，想要图形界面的自己装
 * 第一次开机时不会拓展rootfs分区，意思是**需要你自己拓展**，用fdisk或gparted来拓展吧。
 * 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)。
