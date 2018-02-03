@@ -14,15 +14,14 @@
 * 你可以基于本系统打造更加完善的系统，但**必须注明出处**。
 #### …………
 
-## 一些拓展功能（没必要的话就别开启）：
+## 一些拓展功能（没必要的话就别用）：
 
-* 因为是64位系统，所以你可以开启32位支持,[开启方法](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/32-bit-support.md)
-
-* 为不同的架构指定不同的源，[点此查看](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)
-
-* 添加树莓派官方软件源镜像安装树莓派官方提供的特有的软件包，[添加方法](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)
-
-* 添加swap分区，[添加方法](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)
+|功能名称  |  方法|
+|------|-------|
+|64位系统开启32位支持   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/32-bit-support.md)|
+|为不同的架构指定不同的源   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
+|添加树莓派官方软件源镜像安装树莓派官方提供的特有的软件包   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
+|添加swap分区以增加性能   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
 
 ## 关于:
 
@@ -31,13 +30,15 @@
 * 本系统由以下组成
 #### **firmware** ：由树莓派基金会官方提供的linux-rpi-4.11.y编译的aarch64内核
 #### **rootfs** ：ubuntu-Base-arm64(根目录构建)
+
+## 使用说明
+
 * `apt`的源默认为清华软件源
 * 默认用户：`ubuntu`      密码：`ubuntu`
 * 支持wifi，配置方法[在这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/wifi-config.md)。
 * 如果你需要安装桌面的话，[看这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/install-desktop.md)
 * 默认开启ssh，不想要的自己去关。
-* 默认为命令行，想要图形界面的自己装
-* 第一次开机时不会拓展rootfs分区，意思是**需要你自己拓展**，用fdisk或gparted来拓展吧。
+* 第一次开机时不会拓展rootfs分区，意思是**需要你自己拓展**，用fdisk或gparted来拓展吧，用fdisk拓展方法如下。
 * 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)。
 
 
@@ -49,15 +50,6 @@
 **********************
 
 ## 下载地址：
-
-### 腾讯云(tencent cloud)
-##### （如遇公网流量达到上限而不可下载时请使用百度网盘）
-##### 注意：公网流量有限，请不要使用例如迅雷，快车，电驴，ADM，aria2等下载工具下载，请使用浏览器内建下载/wget等非分块下载的工具下载，感谢你的支持。
-### 发现有人恶意下载耗费大量公网流量，现暂时关闭腾讯云下载方式。
-
-|文件系统 | 普通下载 |cdn下载 |
-|-----|------|---------|
-|使用EXT4文件系统|  |  |
 
 ### 百度网盘(Baidu Netdisk)
 
