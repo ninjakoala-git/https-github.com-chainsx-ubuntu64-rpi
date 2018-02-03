@@ -17,58 +17,13 @@
 
 ## 一些拓展功能（没必要的话就别开启）：
 
-* 因为是64位系统，所以你可以开启32位支持,开启方法：
+* 因为是64位系统，所以你可以开启32位支持,[开启方法](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/32-bit-support.md)
 
-```
-root@ubuntu:~# dpkg --add-architecture armhf   #开启armhf支持
-root@ubuntu:~# apt-get update
-root@ubuntu:~# apt-get install libc6:armhf
-root@ubuntu:~# dpkg --add-architechture armel  #开启armel支持
-root@ubuntu:~# apt-get update
-root@ubuntu:~# apt-get install libc6-armhf
-```
+* 为不同的架构指定不同的源，[点此查看](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)
 
-* 为不同的架构指定不同的源，你需要编辑`/etc/apt/sources.list`为如下模样（只是举个例子）：
+* 添加树莓派官方软件源镜像安装树莓派官方提供的特有的软件包，[添加方法](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)
 
-```
-deb [arch=armel] http://cn.ports.ubuntu.com/ubuntu-ports quantal main universe   #ubuntu官方中国源
-deb [arch=armhf] http://ftp.cn.debian.org/ubuntu-ports quantal main universe    #科大源
-deb [arch=arm64] http://ftp2.cn.debian.org/ubuntu-ports quantal main universe    #清华源
-```
-
-#### [官方帮助文档MultiArch](https://wiki.debian.org/Multiarch/HOWTO)
-
-* 添加树莓派官方软件源镜像（安装树莓派官方提供的特有软件包）
-
-```
-root@ubuntu:~# apt-get update
-root@ubuntu:~# apt-get install debian-keyring
-root@ubuntu:~# echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/archive.raspberrypi.org main ui untested staging" >> /etc/apt/sources.list
-root@ubuntu:~# echo "deb [arch=armhf] http://mirrors.ustc.edu.cn/raspbian/raspbian main contrib firmware non-free rpi" >> /etc/apt/sources.list
-```
-
-* 添加swap分区
-
-```
-root@ubuntu:~# dd if=/dev/zero of=/swapfile bs=2048 count=1M     #创建一个大小为2G的文件
-root@ubuntu:~# mkswap /swapfile     #把这个文件变成swap文件
-root@ubuntu:~# swapon /swapfile     #启用这个swap文件
-#编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
-/swapfile swap swap default 0 0
-```
-
-* 新增配置中心
-
-集成了基于树莓派官方系统自带的的`raspi-config`
-```
-使用命令: raspi-config
-```
-
-添加了`chainsx-tools`
-```
-使用命令: chainsx-tools
-```
-********
+* 添加swap分区，[添加方法](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)
 
 ## 关于:
 
@@ -108,7 +63,6 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 
 | 版本 | 下载链接 |
 |--------|--------|
-| Stable | [链接](https://pan.baidu.com/s/1kWSE0kf) |
-| Alpha  | [链接](https://pan.baidu.com/s/1snt6ByX) |
+| stable(稳定版) | [链接](https://pan.baidu.com/s/1snt6ByX) |
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
