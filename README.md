@@ -108,6 +108,7 @@ root@ubuntu:~# swapon /swapfile     #启用这个swap文件
 
 |文件系统 | 下载链接 |
 |--------|--------|
-|使用EXT4文件系统| [链接](https://pan.baidu.com/s/1kWSE0kf) |
+| Stable | [链接](https://pan.baidu.com/s/1kWSE0kf) |
+| Alpha  | [链接](https://pan.baidu.com/s/1snt6ByX) |
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
