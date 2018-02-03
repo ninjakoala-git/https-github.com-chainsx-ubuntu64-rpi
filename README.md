@@ -55,6 +55,6 @@
 
 | 版本 | 下载链接 |
 |--------|--------|
-| stable(稳定版) | [链接](https://pan.baidu.com/s/1snt6ByX) |
+| ubuntu-16.04-arm64-stable(稳定版) | [链接](https://pan.baidu.com/s/1snt6ByX) |
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
