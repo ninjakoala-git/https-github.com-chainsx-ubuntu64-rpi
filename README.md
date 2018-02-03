@@ -15,7 +15,7 @@
 * 你可以基于本系统打造更加完善的系统，但**必须注明出处**。
 #### …………
 
-## 一些拓展功能：
+## 一些拓展功能（没必要的话就别开启）：
 
 * 因为是64位系统，所以你可以开启32位支持,开启方法：
 
@@ -28,7 +28,7 @@ root@ubuntu:~# apt-get update
 root@ubuntu:~# apt-get install libc6-armhf
 ```
 
-* 为不同的架构指定不同的源，你需要编辑`/etc/apt/sources.list`
+* 为不同的架构指定不同的源，你需要编辑`/etc/apt/sources.list`为如下模样（只是举个例子）：
 
 ```
 deb [arch=armel] http://cn.ports.ubuntu.com/ubuntu-ports quantal main universe   #ubuntu官方中国源
