@@ -1,6 +1,6 @@
 # rpi3-ubuntu-aarch64-bonic-preview
 
-## 正在构建中。。。
+## 下载链接（[百度云](https://pan.baidu.com/s/1dQpcgY)）
 
 QQ:1396219808(CX_rootfs)
 
