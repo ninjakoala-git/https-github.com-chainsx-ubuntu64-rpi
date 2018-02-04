@@ -27,8 +27,8 @@
 |------|-------|
 |64位系统开启32位支持   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/32-bit-support.md)|
 |为不同的架构指定不同的源   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
-|添加树莓派官方软件源镜像安装树莓派官方提供的特有的软件包   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
-|添加swap分区以增加性能   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
+|添加树莓派官方软件源镜像安装树莓派官方提供的特有的软件包   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/offical-support.md)|
+|添加swap分区以增加性能   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/add-swap.md)|
 
 ## 关于:
 
