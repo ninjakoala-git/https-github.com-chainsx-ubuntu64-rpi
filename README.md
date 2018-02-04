@@ -1,8 +1,9 @@
 # RaspberryPi3-ubuntu-16.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04-arm64/README-EN.md)
-### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
 ***************
 ###### 插播一段广告。。。。。
 ### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+
+### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
 ***************
 
 # 经测试，ubuntu-arm64的性能最高提高60倍!!!
