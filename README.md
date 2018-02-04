@@ -55,11 +55,11 @@
 
 | 版本 | 下载链接 |
 |--------|--------|
-| ubuntu-16.04-arm64-stable-with-blutooth-and-wifi(稳定版) | [链接](https://pan.baidu.com/s/1snt6ByX) |
+| ubuntu-16.04-arm64-stable-with-blutooth-and-wifi(稳定版带蓝牙和wifi，使用方法在上面。) | [链接](https://pan.baidu.com/s/1snt6ByX) |
 
 ***************
 ###### 插播一段广告。。。。。
-### ubuntu-18.04-arm64预览版，[下载地址](https://pan.baidu.com/s/1dQpcgY)，没有加wifi驱动，如果的却需要的，请联系我。
+### ubuntu-18.04-arm64预览版，[下载地址](https://pan.baidu.com/s/1dQpcgY)，此预览版没有加wifi驱动，如果的却需要的，请联系我。
 ***************
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
