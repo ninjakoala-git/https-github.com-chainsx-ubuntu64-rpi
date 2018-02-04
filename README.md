@@ -9,7 +9,7 @@
 # 经测试，ubuntu-arm64的性能最高提高60倍!!!
 
 ****************
-！[example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/imagine/1.png "example1")
+![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/imagine/1.png "example1")
 
 ## 前言：
 #### ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的，对，移植版，ubuntu官方不会直接给支持的），而rpi2都有16.04/17.04/17.10的官方镜像……
