@@ -1,6 +1,11 @@
 # RaspberryPi3-ubuntu-16.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04-arm64/README-EN.md)
 ### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
-# 经测试，性能最高提高60倍!!!
+***************
+###### 插播一段广告。。。。。
+### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+***************
+
+# 经测试，ubuntu-arm64的性能最高提高60倍!!!
 
 ****************
 
@@ -58,9 +63,5 @@
 | ubuntu-16.04-arm64-stable-with-blutooth-and-wifi(稳定版带蓝牙和wifi，使用方法在上面。) | [链接](https://pan.baidu.com/s/1snt6ByX) |
 ##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你提供腾讯云计算对象储存内容分发式网络高速下载通道的。
 
-***************
-###### 插播一段广告。。。。。
-### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
-***************
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
