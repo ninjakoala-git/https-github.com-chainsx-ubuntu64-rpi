@@ -59,7 +59,7 @@
 
 ***************
 ###### 插播一段广告。。。。。
-### ubuntu-18.04-arm64预览版，[下载地址](https://pan.baidu.com/s/1dQpcgY)，此预览版没有加wifi驱动，如果的却需要的，请联系我。
+### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
 ***************
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
