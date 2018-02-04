@@ -35,7 +35,7 @@
 
 * `apt`的源默认为清华软件源
 * 默认用户：`ubuntu`      密码：`ubuntu`
-* 支持wifi，配置方法[在这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/wifi-config.md)。
+* 支持蓝牙和wifi，wifi配置方法[在这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/wifi-config.md)。
 * 如果你需要安装桌面的话，[看这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/install-desktop.md)
 * 默认开启ssh，不想要的自己去关。
 * 第一次开机时不会拓展rootfs分区，意思是**需要你自己拓展**，用fdisk或gparted来拓展吧，用fdisk拓展方法如下。
@@ -55,7 +55,7 @@
 
 | 版本 | 下载链接 |
 |--------|--------|
-| ubuntu-16.04-arm64-stable(稳定版) | [链接](https://pan.baidu.com/s/1snt6ByX) |
+| ubuntu-16.04-arm64-stable-with-blutooth-and-wifi(稳定版) | [链接](https://pan.baidu.com/s/1snt6ByX) |
 
 ***************
 ###### 插播一段广告。。。。。
