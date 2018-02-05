@@ -31,9 +31,11 @@
 `apt-get install xfce4`
 
 8，cinnamon桌面环境
+
 `apt-get install cinnamon`
 
 9，bugie桌面环境
+
 `apt-get install ubuntu-budgie-desktop`
 
 ### 注意：像kde,unity等桌面以及其衍生版kubuntu-desktop,ubuntu-desktop等桌面需要硬件加速，尚未支持。
