@@ -1,9 +1,13 @@
+## 树莓派手动扩容
+
+### 我觉得这篇文章会在下一次更新时作废，因为我在解决自动扩容的问题。
+
+# 如果你觉得中文看起来困难，你可以看[英语](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system-en.md)
+
 
 步骤1: 重新启动你的树莓派，用ssh登陆
 
-步骤2: $ sudo df -h 你应该会看到/ 挂载于rootfs。 
-
-步骤3: $ sudo fdisk /dev/mmcblk0 
+步骤2: $ sudo fdisk /dev/mmcblk0 
 
 * 命令：按p（印刷） 你应该会看到两个分区，现在把分区2的信息写下来（/dev/mmcblk0p2）。 
 
@@ -21,10 +25,8 @@
 
 * 命令：按w（保存） 
 
-步驟4: $sudo reboot 
+步驟3: $sudo reboot 
 
 重新启动后，使用resize2fs来修复分区2 
 
-步驟5: $ sudo resize2fs /dev/mmcblk0p2 等待约2-3分钟 
-
-步驟6: $ sudo df -h 你应该會看到 /
+步驟4: $ sudo resize2fs /dev/mmcblk0p2 等待约2-3分钟 
