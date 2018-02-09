@@ -3,7 +3,7 @@
 ###### 插播一段广告。。。。。
 ### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
 
-### [64位centos戳这里](https://github.com/chainsx/centos64-rpi)
+### [64位centos戳这里(尚未完成，仅供测试用)](https://github.com/chainsx/centos64-rpi)
 ### [64位debian(非pi64,此版本可以吊打pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
