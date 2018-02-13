@@ -6,5 +6,5 @@ root@ubuntu:~# apt-get update
 root@ubuntu:~# apt-get install libc6:armhf
 root@ubuntu:~# dpkg --add-architecture armel  #开启armel支持
 root@ubuntu:~# apt-get update
-root@ubuntu:~# apt-get install libc6-armhf
+root@ubuntu:~# apt-get install libc6-armel
 ```
