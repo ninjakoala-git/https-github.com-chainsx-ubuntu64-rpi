@@ -69,8 +69,8 @@
 | 版本 | 下载链接 |
 |--------|--------|
 | ubuntu-16.04-arm64-stable-with-wifi(稳定版带wifi，使用方法在上面。) | [链接](https://pan.baidu.com/s/1snt6ByX) |
-| ubuntu-16.04-arm64-nightly-with-wifi-auto-expand-rootfs(Night开发版) | [链接](https://pan.baidu.com/s/1jJhZMNs) |
-#### 关于Night版，是没有经过测试的，很多东西都可能会出问题，甚至不能开机，仅大家测试后反馈bug和意见用。
+| ubuntu-16.04-arm64-nightly-with-wifi-auto-expand-rootfs(Night开发版) | [链接](https://github.com/iikira/BaiduPCS-Go/releases/download/v3.2.2/BaiduPCS-Go-v3.2.2-linux-arm64.zip) |
+#### 关于Night版，在使用前，你需要阅读[这里](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/Documentation/about-nightly.md)。
 ##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你提供腾讯云计算对象储存内容分发式网络高速下载通道的。
 
 ## 特别鸣谢
