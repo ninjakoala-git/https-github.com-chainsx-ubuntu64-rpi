@@ -23,3 +23,5 @@ ubuntu-16.04.3使用 NetworkManager 工具来管理网络，其在命令行下�
 请将 SSID和 PASSWORD 替换成实际的 WiFi名称和密码。
 
 连接成功后，下次开机，WiFi 也会自动连接。
+
+[关于更多](https://wiki.archlinux.org/index.php?title=NetworkManager_(简体中文)&mobileaction=toggle_view_desktop)
