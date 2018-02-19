@@ -14,7 +14,7 @@ cat /etc/resolv.conf
 
 果不其然，修改后重启就失效了。。。。。。。。
 
-# 方法一 通过/etc/network/interfaces，在它的最后增加一句：
+# （推荐）方法一 通过/etc/network/interfaces，在它的最后增加一句：
 
 dns-nameservers 8.8.8.8
 
