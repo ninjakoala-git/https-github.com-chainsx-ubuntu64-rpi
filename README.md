@@ -53,6 +53,7 @@
 * 默认开启ssh，不想要的自己去关。
 * 第一次开机时不会拓展rootfs分区，意思是**需要你自己拓展**，用fdisk或gparted来拓展吧，用fdisk拓展方法如下。
 * 关于ext4的扩容方法，在[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-17.04-arm64/Documentation/expand-file-system.md)。
+* 默认使用清华源，如果你的树莓派无法解析清华源的地址，看[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/dns-setting.md)
 
 
 |  联系方式   |           |
