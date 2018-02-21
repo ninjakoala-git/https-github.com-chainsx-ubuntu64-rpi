@@ -78,3 +78,5 @@
 [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容脚本）
 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
+# 论坛支持https://raspberrypi.party
+## 感谢 @束发少年 的论坛支持
