@@ -11,7 +11,7 @@
 
 ****************
 ![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/imagine/321.jpg "example1")
-##### (图为u盘启动实例)
+##### (图为u盘启动实例，可以看到，根目录文件系统为btrfs，挂载于/)
 
 ## 前言：
 #### ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的，对，移植版，ubuntu官方不会直接给支持的），而rpi2都有16.04/17.04/17.10的官方镜像……
@@ -71,7 +71,7 @@
 | 版本 | 下载链接 |
 |--------|--------|
 | ubuntu-16.04-arm64-stable-with-wifi(稳定版带wifi，使用方法在上面。) | [链接](https://pan.baidu.com/s/1snt6ByX) |
-| ubuntu-16.04-arm64-nightly-with-wifi-auto-expand-rootfs(Night开发版) | [链接](https://pan.baidu.com/s/1mjXwWNA) |
+| ubuntu-16.04-arm64-nightly-with-wifi-auto-expand-rootfs(Night开发版) | [链接](https://pan.baidu.com/s/1htHqn7Q) |
 #### 关于Night版，在使用前，你需要阅读[这里](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/Documentation/about-nightly.md)。
 ##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你提供腾讯云计算对象储存内容分发式网络高速下载通道的。
 
