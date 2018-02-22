@@ -11,6 +11,7 @@
 
 ****************
 ![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/imagine/321.jpg "example1")
+##### (图为u盘启动实例)
 
 ## 前言：
 #### ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的，对，移植版，ubuntu官方不会直接给支持的），而rpi2都有16.04/17.04/17.10的官方镜像……
