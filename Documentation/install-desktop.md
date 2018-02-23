@@ -1,6 +1,14 @@
 # 安装桌面方法
 
-### 这些桌面环境都是开箱即用的
+## 步骤一，安装Display Server。
+
+```
+sudo apt-get install --no-install-recommends xserver-xorg
+
+sudo apt-get install --no-install-recommends xinit
+```
+
+## 步骤二，安装GUI桌面环境。
 
 1，mate桌面环境
 
@@ -37,6 +45,8 @@
 9，bugie桌面环境
 
 `apt-get install ubuntu-budgie-desktop`
+
+## 这时，重启之后就完成了。
 
 ### 注意：像kde,unity等桌面以及其衍生版kubuntu-desktop,ubuntu-desktop等桌面需要硬件加速，尚未支持。
 
