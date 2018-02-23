@@ -1,17 +1,17 @@
 # RaspberryPi3-ubuntu-16.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04-arm64/README-EN.md)
 ***************
 ###### 插播一段广告。。。。。
-### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+#### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
 
-### [64位centos戳这里(尚未完成，仅供测试用)](https://github.com/chainsx/centos64-rpi)
-### [64位debian(非pi64,此版本可以吊打pi64)](https://github.com/UMRnInside/RPi-arm64)
+#### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
+#### [64位debian(非pi64,此版本可以吊打pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
 # 经测试，ubuntu-arm64的性能最高提高60倍!!!
 
 ****************
 ![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/imagine/321.jpg "example1")
-##### (图为u盘启动实例，可以看到，根目录文件系统为btrfs，挂载于/)
+##### (⬆图为u盘启动实例，可以看到，根目录文件系统为btrfs，挂载于/)
 
 ## 前言：
 #### ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的，对，移植版，ubuntu官方不会直接给支持的），而rpi2都有16.04/17.04/17.10的官方镜像……
