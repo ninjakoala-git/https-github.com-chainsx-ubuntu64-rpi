@@ -75,13 +75,16 @@
 | 版本 | 下载链接 |
 |--------|--------|
 | ubuntu-16.04-arm64-stable-with-wifi(稳定版带wifi，使用方法在上面。) | [链接](https://pan.baidu.com/s/1snt6ByX) |
-| ubuntu-16.04-arm64-nightly-with-wifi-auto-expand-rootfs(Night开发版) | [链接](https://pan.baidu.com/s/1htHqn7Q) |
+| ubuntu-16.04-arm64-nightly-with-wifi-auto-expand-rootfs(Night开发版) | [链接](https://pan.baidu.com/s/1eTvaohk) |
 #### 关于Night版，在使用前，你需要阅读[这里](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-16.04.3-arm64/Documentation/about-nightly.md)。
 ##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你提供腾讯云计算对象储存内容分发式网络高速下载通道的。
 
 ## 特别鸣谢
-[UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容脚本）
-
+[UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
+[树莓派基金会](https://www.raspberrypi.org) (提供了开机自动扩容脚本)
+[Armbian](https://armbian.com) (提供了chainsx-tools源码)
+@ 束发少年 (提供论坛支持)
+ 
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
 # 论坛支持https://raspberrypi.party
 ## 感谢 @束发少年 的论坛支持
