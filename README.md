@@ -81,8 +81,11 @@
 
 ## 特别鸣谢
 [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
+
 [树莓派基金会](https://www.raspberrypi.org) (提供了开机自动扩容脚本)
+
 [Armbian](https://armbian.com) (提供了chainsx-tools源码)
+
 @ 束发少年 (提供论坛支持)
  
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
