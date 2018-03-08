@@ -1,11 +1,8 @@
 * 添加swap分区
-
-```
-root@ubuntu:~# dd if=/dev/zero of=/swapfile bs=2048 count=1M     #创建一个大小为2G的文件
-root@ubuntu:~# mkswap /swapfile     #把这个文件变成swap文件
-root@ubuntu:~# chown root:root /swapfile    #授权root
-root@ubuntu:~# chmod 0600 /swapfile    设置权限
-root@ubuntu:~# swapon /swapfile     #启用这个swap文件
-#编辑/etc/fstab文件，使在每次开机时自动加载swap文件：
-/swapfile swap swap default 0 0
-```
+ 
+### 编辑/etc/dphys-swapfile
+sudo vi /etc/dphys-swapfile
+#### 将 CONF_SWAPSIZE 的值修改成你想要的大小。 一般在内存小于2G的情况下，交换分区应为内存的2倍!(树莓派的话是2G最好)
+ 
+### 然后，重新启动 dphys-swapfile 文件服务
+sudo /etc/init.d/dphys-swapfile restart
