@@ -1,10 +1,11 @@
 # RaspberryPi3-ubuntu-16.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04-arm64/README-EN.md)
 ***************
 ###### 插播一段广告。。。。。
-#### ubuntu-18.04-arm64预览版，[项目分支](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+#### [ubuntu-18.04-arm64预览版](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
 
 #### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
-#### [64位debian(非pi64,此版本可以吊打pi64)](https://github.com/UMRnInside/RPi-arm64)
+#### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
 # 经测试，ubuntu-arm64的性能最高提高60倍!!!
@@ -63,7 +64,7 @@ sudo chainsx-tools
 ## 关于内核(测试版使用[maimline4.16内核](https://github.com/chainsx/firmware64-rpi))
 
 - [X] wifi
-- [X] bluetooth
+- [X] bluetooth(蓝牙使用前需要配置)
 - [X] GPIO
 
 |  联系方式   |           |
