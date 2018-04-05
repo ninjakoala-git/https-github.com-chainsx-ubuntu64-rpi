@@ -23,22 +23,17 @@
 * 如需定制版以及商业用途，请**务必**与本人联系。
 * 可以转载，推广甚至修改本系统，但**必须注明出处**。
 * 你可以基于本系统打造更加完善的系统，但**必须注明出处**。
-* 帮助文档在[这里](https://github.com/chainsx/ubuntu64-rpi/wiki)
+* 
 #### …………
 
-
-## 关于:
-
-* 本系统是直接基于ubuntu-Base-16.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升，但是整个系统不够完善。
-* **ubuntu官方为bcm2837给了支持**，只不过是以raspi2命名，原因是晚期的raspi2是使用的bcm2837芯片。
-* 现在的开机时间不到10秒，超过了官方raspbian lite,吊打同类的pi64(国外人士移植的debian arm64)。
-* 本系统由以下组成
-#### **firmware** ：由树莓派基金会官方提供的linux-rpi-4.11.y编译的aarch64内核
-#### **rootfs** ：ubuntu-Base-arm64(根目录构建)
+## [帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
 
 ## 使用说明
 
+
+* 本系统是直接基于ubuntu-Base-16.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升。
 * `apt`的源默认为清华软件源
+* **ubuntu官方为bcm2837给了支持**，只不过是以raspi2命名，原因是晚期的raspi2是使用的bcm2837芯片。
 * 默认用户：`ubuntu`      密码：`ubuntu`
 * 支持wifi，wifi配置方法[在这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/wifi-config.md)。
 * 如果你需要安装桌面的话，[看这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/install-desktop.md)
