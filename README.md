@@ -1,11 +1,11 @@
 # RaspberryPi3-ubuntu-16.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04-arm64/README-EN.md)
 ***************
-###### 插播一段广告。。。。。
-#### [ubuntu-18.04-arm64预览版](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
-### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
+####### 插播一段广告。。。。。
+##### [ubuntu-18.04-arm64预览版](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+#### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
 
-#### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
-#### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
+##### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
+##### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
 # 经测试，ubuntu-arm64的性能最高提高60倍!!!
@@ -23,18 +23,9 @@
 * 如需定制版以及商业用途，请**务必**与本人联系。
 * 可以转载，推广甚至修改本系统，但**必须注明出处**。
 * 你可以基于本系统打造更加完善的系统，但**必须注明出处**。
+* 帮助文档在[这里](https://github.com/chainsx/ubuntu64-rpi/wiki)
 #### …………
 
-## 一些拓展功能（没必要的话就别用）：
-
-|功能名称  |  方法|
-|------|-------|
-|64位系统开启32位支持   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/32-bit-support.md)|
-|为不同的架构指定不同的源   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/multi-arch.md)|
-|添加树莓派官方软件源镜像安装树莓派官方提供的特有的软件包   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/offical-support.md)|
-|添加swap分区以增加性能   |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/add-swap.md)|
-|安装preload以加快开机速度 |   [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/preload.md) |
-|获取ubuntu官方支持  |  [帮助文档](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/ubuntu-offical-support.md)|
 
 ## 关于:
 
@@ -52,7 +43,7 @@
 * 支持wifi，wifi配置方法[在这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/wifi-config.md)。
 * 如果你需要安装桌面的话，[看这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/install-desktop.md)
 * 默认开启ssh，不想要的自己去关。
-* **第一次开机时会自动拓展根目录**。
+* **第一次开机时会自动拓展根目录，然后会自动重启，重启后会配置系统，请耐心等待**。
 * 默认使用清华源，**如果你的树莓派无法解析清华源的地址**(apt时提示404或者卡住不动)，看[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/dns-setting.md)
 * 集成了`raspi-config`,`chainsx-tools`系统集成管理工具，使用方法：
 ```
