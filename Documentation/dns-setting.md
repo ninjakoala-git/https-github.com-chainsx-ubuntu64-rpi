@@ -56,6 +56,13 @@ nameserver 8.8.4.4
 
 可以看到我们的设置已经加上了，然后再ping一个域名，当时就可以解析了，无需重启。
 
+# 方法三 更新一下apt：
+
+sudo apt-get update
+
+等更新完就不会出现404了。
+
+
 附：CentOS下修改DNS则容易的多了，直接修改/etc/resolv.conf，内容是：
 nameserver 8.8.8.8
 nameserver 8.8.4.4
